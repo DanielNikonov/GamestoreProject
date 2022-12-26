@@ -1,0 +1,50 @@
+.main {
+  height: 800px;
+  width: 600px;
+  background-color: #7cb9e8;
+  background: linear-gradient(45deg, #b7d6e8, #93bdd5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.mainTitle {
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+  font-size: 35px;
+  height: 90px;
+  background-color: #b7d6e8;
+}
+#titleInput,
+#platformInput,
+#productionYear,
+#price,
+#imgSrc {
+  width: 570px;
+  height: 60px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.box {
+  color: white;
+  margin-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.createBtn,
+.deleteBtn {
+  height: 60px;
+  width: 190px;
+  background-color: #6db7d5;
+  border-radius: 10px;
+  border: 0px;
+  color: white;
+  margin-top: 40px;
+  margin-right: 15px;
+  float: right;
+  display: block;
+  clear: left;
+
+  font-size: 25px;
+}

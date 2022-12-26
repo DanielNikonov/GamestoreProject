@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="mainTitle">New product edition forrm</div>
+      <div class="box">
+        Enter the title of the game<br /><input type="text" id="titleInput" />
+      </div>
+
+      <div class="box">
+        Enter the platform of the game<br /><input
+          type="text"
+          id="platformInput"
+        />
+      </div>
+      <div class="box">
+        Enter the production year of the game<br /><input
+          type="number"
+          min="0"
+          id="productionYear"
+        />
+      </div>
+      <div class="box">
+        Enter the price of the game<br /><input
+          type="number"
+          min="0"
+          id="price"
+        />
+      </div>
+      <div class="box">
+        Enter the image adress of the game<br /><input type="url" id="imgSrc" />
+      </div>
+
+      <button class="createBtn" id="createBtn">Create</button>
+      <button class="deleteBtn" id="deleteBtn">Delete</button>
+    </div>
+    <script type="module" src="js/jsonCreator.js"></script>
+    <script type="module" src="js/manager.js"></script>
+  </body>
+</html>
